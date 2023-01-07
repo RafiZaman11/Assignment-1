@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+.dev{
+    text-align: right;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 135px;
+    background-image: url(new-year-new-me-main/images/banner/banner3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    margin-bottom: 131px;
+}
+#intro{
+    font-weight: 700;
+    font-size: 65px;
+}
+.intro1{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 10px;
+    padding: 21px 36px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    color: #005FAC;
+    font-weight: 600;
+}
+.common{
+    margin-left: 206px;
+    margin-right: 206px;
+    display: flex;
+    margin-bottom: 130px;
+}
+#image{
+    width: 400px;
+}
+#indetails{
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 150px;
+    padding-left: 30px;
+}
+#list{
+    color: #444343;
+    font-size: 16px;
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    padding-left: 30px;
+} 
+#list li:before {
+    content: '✓ ';
+    color: #16D887;
+}
