@@ -35,6 +35,7 @@
     margin-right: 206px;
     display: flex;
     margin-bottom: 130px;
+    gap: 30px;
 }
 #image{
     width: 400px;
@@ -43,7 +44,6 @@
     font-weight: 700;
     font-size: 40px;
     padding-top: 150px;
-    padding-left: 30px;
 }
 #list{
     color: #444343;
@@ -51,9 +51,39 @@
     margin-top: 10px;
     list-style: none;
     padding-left: 0;
-    padding-left: 30px;
 } 
 #list li:before {
     content: '✓ ';
     color: #16D887;
+}
+.com{
+    text-align: center;
+}
+.grad{
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 10px;
+    size: 100px 100px;
+    color: white;
+}
+.dev2{
+    background-image: url(new-year-new-me-main/images/watch.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 180px;
+    padding-top: 15px;
+    padding-left: 20px;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), #005FAC), url(new-year-new-me-main/images/watch.png);
+}
+.foo{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 106px;
+    margin-right: 106px;
+    color: white;
+}
+#foot{
+    background-color: #151414;
+    display: flex;
 }
